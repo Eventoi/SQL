@@ -1,18 +1,18 @@
 # Домашнее задание к лекции «Работа с SQL. Создание БД»
 
-CREATE DATABASE Music_Service;
+> CREATE DATABASE Music_Service;
 
-CREATE TABLE genres (
+> CREATE TABLE genres (
   id SERIAL PRIMARY KEY,
   name VARCHAR(255) NOT NULL
 );
 
-CREATE TABLE artists (
-  id SERIAL PRIMARY KEY,
-  name VARCHAR(255) NOT NULL
-);
+> CREATE TABLE artists (
+>   id SERIAL PRIMARY KEY,
+>   name VARCHAR(255) NOT NULL
+> );
 
-CREATE TABLE artists_genres (
+> CREATE TABLE artists_genres (
   artist_id INT,
   genre_id INT,
   FOREIGN KEY (artist_id) REFERENCES artists(id),
