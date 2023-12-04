@@ -1,8 +1,10 @@
 # Домашнее задание к лекции «Работа с SQL. Создание БД»
 
+### -- Создание БД
 > CREATE DATABASE Music_Service;
 
-> CREATE TABLE genres (
+### -- Создание таблицы Genre
+> CREATE TABLE genre (
   id SERIAL PRIMARY KEY,
   name VARCHAR(255) NOT NULL
 );
