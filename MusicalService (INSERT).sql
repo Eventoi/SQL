@@ -59,7 +59,8 @@ VALUES
 ('A Shadowkey', 0430, 6),
 ('I Seek You', 0353, 1),
 ('Mother Earth', 0531, 2),
-('Headstones', 0516, 7);
+('Headstones', 0516, 7),
+('Save My Life', 0237, 11);
 
 -- Вставка сборников
 INSERT INTO compilations (name, release_year)
@@ -91,6 +92,7 @@ VALUES
 (2, 1),
 (3, 1),
 (4, 2),
+(4, 3),
 (5, 2),
 (6, 11),
 (7, 4),
